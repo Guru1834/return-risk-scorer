@@ -1,0 +1,20 @@
+{
+  "cost_model": {
+    "fn_cost_fraction": 0.35,
+    "fp_cost_flat_inr": 45.0
+  },
+  "do_nothing_cost_inr": 1584063.9394999999,
+  "flag_all_cost_inr": 458865.0,
+  "catboost_solo": {
+    "best_threshold": 0.475,
+    "total_cost_inr": 458331.2445,
+    "savings_vs_do_nothing_inr": 1125732.6949999998,
+    "pr_auc": 0.21967474291567668
+  },
+  "stacked_ensemble": {
+    "best_threshold": 0.32499999999999996,
+    "total_cost_inr": 417721.354,
+    "savings_vs_do_nothing_inr": 1166342.5854999998,
+    "pr_auc": 0.23783826363222274
+  }
+}
